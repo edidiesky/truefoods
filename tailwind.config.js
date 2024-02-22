@@ -24,6 +24,7 @@ module.exports = {
       },
       // Blog_Styles
       fontFamily: {
+        font_sans: ["Montserrat", "sans-serif"],
         shop_bold: ["Bold", "sans-serif"],
         shop_italic: ["Italic", "sans-serif"],
         shop_semibold: ["SemiBold", "sans-serif"],
