@@ -21,10 +21,12 @@ module.exports = {
         custom: "1fr 50%",
         custom_2: "45% 1fr",
         custom_3: "35% 1fr",
+        custom_4: "1fr 40%",
       },
       // Blog_Styles
       fontFamily: {
         font_sans: ["Montserrat", "sans-serif"],
+        font_karla: ["Karla", "sans-serif"],
         shop_bold: ["Bold", "sans-serif"],
         shop_italic: ["Italic", "sans-serif"],
         shop_semibold: ["SemiBold", "sans-serif"],
@@ -34,6 +36,7 @@ module.exports = {
       },
       maxWidth: {
         custom: "1304px",
+        custom_3: "1204px",
         custom_1: "1104px",
         custom_2: "804px",
       },

@@ -21,7 +21,7 @@ export const productlistData = [
         description: "Does it all: Stir fries, paellas, side dishes, salads—even risotto. Mild flavour. Plump, firm kernel with a silky feel. USDA Organic.",
         reviews: "7.00",
         title:"California Organic White Calrose Rice",
-        price: "8"
+        price: "8.08"
     },
     {
         image: "https://assets-global.website-files.com/6169cfc20b135a64482542d4/6169cfc20b135a164d2542e0_Calfironia%20Organic%20Brown%20Calrose%20Rice.png",
@@ -61,7 +61,7 @@ export const productlistData = [
         description: "Slightly starchy making them perfect to hold up in soups, salads and sauces.",
         reviews: "20",
         title:"California Organic Garbanzo Beans",
-        price: "10"
+        price: "10.50"
     },
     {
         image: "https://assets-global.website-files.com/6169cfc20b135a64482542d4/61f83f9b22436c4a4a7c9fe0_True-Origin-Foods-Organic-Yellow-Popcorn-850030824035-Front.png",
