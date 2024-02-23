@@ -24,18 +24,21 @@ const ProductSelection: React.FC<ProductDetailsType> = ({ food }) => {
                     <div className="w-full m-auto grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-between">
                         {
                             productlistData.slice(0, 4).map((x?: any, index?: any) => {
-                                return <Link href={`/product/${x?.title}`} className="w-full md:flex hidden item-center justify-end">
-                                    <span className="flex items-center justify-center">
-                                        <div className="py-8 w-[90%] mx-auto relative flex flex-col item-start gap-2 justify-center">
-                                            <div className="w-full">
-                                                <img src={x?.image} alt="" className="w-full" />
+                                return <Link href={`/product/${x?.title}`} className="w-full flex item-center justify-end">
+                                    <span className="flex items-center w-full justify-center">
+                                        <div className="py-8 w-[90%] mx-auto relative flex flex-col item-start justify-center gap-6">
+                                            <div className="w-full flex items-center justify-center">
+                                                <div className="w-[300px] flex items-center justify-center relative h-[300px] ">
+                                                    <img src={x?.images[0]} alt="" className="w-[60%] md:w-[70%] lg:w-[90%] object-cover" />
+                                                    {/* <img src={x?.images[1]} alt="" className="w-full" /> */}
+                                                </div>
                                             </div>
-                                            <div className="flex flex-1 px-2 font-font_sans items-start justify-center flex-col gap-2">
+                                            <div className="flex flex-1 px-2 font-font_sans items-center justify-center flex-col gap-2">
                                                 <h4 className="font-bold hover:underline font-font_sans text-base leading-[1.1]">
 
                                                     {x?.title}
                                                 </h4>
-                                                <h5 className="text-[#EA0A0A] font-bold text-base">
+                                                <h5 className="text-[#EA0A0A] w-full text-center font-bold text-base">
                                                     ${x.price}
                                                 </h5>
                                                 {/* <div className="w-full flex items-center">
