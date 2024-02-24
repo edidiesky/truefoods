@@ -33,7 +33,7 @@ const ProductList = () => {
                 <div className="w-full m-auto max-w-custom_1 grid gap-2 grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-between">
                     {
                         productlistData.map((x?: any, index?: any) => {
-                            return <Link href={`/product/${x?.title}`} className="w-full flex item-center justify-end">
+                            return <Link key={index} href={`/product/${x?.title}`} className="w-full flex item-center justify-end">
                                 <span className="flex items-center w-full justify-center">
                                     <div className="py-8 w-[90%] mx-auto relative flex flex-col item-start justify-center gap-6">
                                        <div className="w-full flex items-center justify-center">

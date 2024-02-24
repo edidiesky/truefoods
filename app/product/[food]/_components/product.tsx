@@ -26,7 +26,7 @@ const Product: React.FC<ProductDetailsType> = ({ food }) => {
                         <div className="w-full flex items-start gap-4">
                             {
                                 product?.images.map((x?: any, index?: any) => {
-                                    return <div className="flex border h-[150px] lg:h-[200px] items-center justify-center">
+                                    return <div key={index} className="flex border h-[150px] lg:h-[200px] items-center justify-center">
                                         <img src={x} alt="" className="w-full h-full" />
                                     </div>
                                 })

@@ -41,7 +41,7 @@ const Collaboration = () => {
             <div className="py-4 grid grid-cols-1 m-auto max-w-custom_1 gap-16 px-8 md:grid-cols-3">
                 {
                     collaborationData?.map((x?: any, index?: any) => {
-                        return <div className="flex flex-col gap-6 py-2 px-4 border-l">
+                        return <div key={index} className="flex flex-col gap-6 py-2 px-4 border-l">
                             <img src={x?.image} alt="" className="w-20" />
                             <h4 className="text-base font-bold ">{x?.text}</h4>
                             <h5 className="text-sm">{x?.subtext}</h5>

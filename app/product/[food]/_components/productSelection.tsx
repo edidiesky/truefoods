@@ -24,7 +24,7 @@ const ProductSelection: React.FC<ProductDetailsType> = ({ food }) => {
                     <div className="w-full m-auto grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-between">
                         {
                             productlistData.slice(0, 4).map((x?: any, index?: any) => {
-                                return <Link href={`/product/${x?.title}`} className="w-full flex item-center justify-end">
+                                return <Link key={index} href={`/product/${x?.title}`} className="w-full flex item-center justify-end">
                                     <span className="flex items-center w-full justify-center">
                                         <div className="py-8 w-[90%] mx-auto relative flex flex-col item-start justify-center gap-6">
                                             <div className="w-full flex items-center justify-center">
