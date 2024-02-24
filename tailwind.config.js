@@ -27,7 +27,7 @@ module.exports = {
       fontFamily: {
         font_sans: ["Montserrat", "sans-serif"],
         font_karla: ["Karla", "sans-serif"],
-        shop_bold: ["Bold", "sans-serif"],
+        shop_bold: ["Agency_Extended", "sans-serif"],
         shop_italic: ["Italic", "sans-serif"],
         shop_semibold: ["SemiBold", "sans-serif"],
       },

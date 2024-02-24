@@ -78,7 +78,7 @@
 
 @font-face {
   font-family: "Bold";
-  src: url("../assets/fonts/Bold.ttf") format("truetype");
+  src: url("../assets/fonts/Manrope-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -90,6 +90,12 @@
   font-family: "SemiBold";
   src: url("../assets/fonts/Semi_Bold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Agency_Extended";
+  src: url("../assets/fonts/MonumentExtended-Regular.ttf") format("truetype");
+}
+
 
 html.has-scroll-smooth {
   overflow: hidden;
