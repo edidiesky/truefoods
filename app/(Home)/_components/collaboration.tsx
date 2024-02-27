@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-const collaborationData = [
+const collaborationData = [ 
     {
         text: 'Creating Habitat for Wild Birds',
         subtext: "Did you know that if rice fields are flooded at just the right time, they create a perfect place for some migratory birds to feed and rest? This work helps protect endangered species and enhances biodiversity.",
